@@ -1,0 +1,31 @@
+.h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 61.6px */
+}
+
+.h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    color: var(--main-color-secondary);
+}
+
+.h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    color: var(--main-color-secondary);
+    margin: 0;
+}
+
+.h4 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin: 0;
+}

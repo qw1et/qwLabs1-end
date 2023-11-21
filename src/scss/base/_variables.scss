@@ -1,0 +1,28 @@
+// Breakpoints
+$tablet-bp: 1023.98px;
+$mobile-bp: 559.98px;
+
+// Units
+
+:root {
+    // Colors
+    --bg-color: #fff;
+    --text-color: #000;
+    --main-color: #FF6743;
+    --main-color-secondary: #2C2D2E; 
+    --bgborder-color: #333;
+    --shadow-color: rgba(0, 16, 61, 0.12);
+    --light-color: #ADADAD;
+    --secondary-text: #919399;
+    --snd-white: #FBFBFB;
+    --text-internals:rgba(44, 45, 46, 0.80);
+    --line-color:#EBEBEB;  
+
+
+
+
+
+
+    // Fonts
+    --main-font: "Inter", "Arial", sans-serif;
+}

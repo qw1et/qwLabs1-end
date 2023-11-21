@@ -1,0 +1,87 @@
+.text-info {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 0;
+}
+
+.text-cards {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin: 0;
+
+    &__calculator {
+        color: var(--secondary-text);
+    }
+}
+
+.service-info {
+    color: var(--main-color-secondary);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+    width: 505px;
+    margin: 0;
+
+    &__naming {
+        color: var(--main-color-secondary);
+        font-weight: 600;         
+    }
+}
+
+.function-text {
+    color: var(--main-color-secondary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 0;
+
+    &__calculator {
+        color: var(--bg-color);
+    }
+}
+
+.text-adventage {
+    color: var(--main-color-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 271px;
+    margin: 0;
+
+    &__feedback {
+        color: var(--main-color-secondary);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+    }
+}
+
+.text-conf {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--secondary-text);
+}
+
+.footer-logo-text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--secondary-text); 
+}
+
+
+
+
+
