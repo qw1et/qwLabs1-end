@@ -73,12 +73,20 @@
     color: var(--secondary-text);
 }
 
-.footer-logo-text {
+.text-logo {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
-    color: var(--secondary-text); 
+    color: var(--secondary-text);
+
+    &:hover {
+        color: var(--main-color);
+    }
+
+    &:active {
+        color: var(--main-color);
+    }
 }
 
 

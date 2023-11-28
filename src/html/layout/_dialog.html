@@ -1,0 +1,25 @@
+<div class="dialog" id="dialog-window" aria-labelledby="dialog-window" aria-hidden="true">
+
+    <div class="dialog__overlay" data-a11y-dialog-hide="true"></div>
+
+    <div class="dialog__window" role="document">
+        <button class="dialog__close reset-btn" type="button" data-a11y-dialog-hide aria-label="Закрыть окно создания сделки">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <path d="M18 3L3 18M3 3L18 18" stroke="#2C2D2E" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    
+        <h2 class="dialog__title h2">Создать сделку</h2>
+        <form class="dialog__forms" method="dialog">
+            <input class="dialog__input" type="text" name="dialog_name" id="name_window" placeholder="Имя" autocomplete="name">
+            <input class="dialog__input" type="text" name="dialog_email" id="email_window" placeholder="Email" autocomplete="email">
+        </form>
+    
+        <div class="dialog__end-werify">
+            <button class="dialog__btn-applicaton btn-create reset-btn">
+                Отправить
+            </button>
+            <p class="text-conf">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных</p>
+        </div>
+    </div>
+</div>

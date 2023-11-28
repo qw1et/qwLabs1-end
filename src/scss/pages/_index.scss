@@ -110,7 +110,7 @@
 }
 
 .about-service {
-    padding: 60px 120px 120px 120px;
+    padding: 60px 0 120px 0;
     margin: 0;
    
     &__container {
@@ -138,6 +138,7 @@
 
     &__column-container {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         gap: 8px;
     }
@@ -183,7 +184,7 @@
 }
 
 .how-it-works {
-    padding: 120px;
+    padding: 120px 0 120px 0;
 
     &__container {
         display: flex;
@@ -226,7 +227,7 @@
 }
 
 .calculator {
-    padding: 120px 120px 0 120px;
+    padding: 120px 0 0 0;
 
     &__btn {
         width: 182px;
@@ -337,7 +338,7 @@
 }
 
 .what-can-sell {
-    padding: 120px;
+    padding: 120px 0 120px 0;
 
     &__container {
         display: flex;
@@ -405,7 +406,7 @@
 } 
 
 .advantage {
-    padding: 0px 120px 120px 120px;
+    padding: 0px 0 120px 0;
 
     &__container {
         display: flex;
@@ -440,7 +441,7 @@
 }
 
 .feedback {
-    padding: 0px 120px 120px 120px;
+    padding: 0 0 120px 0;
 
     &__container {
         display: flex;
@@ -478,7 +479,7 @@
 }
 
 .quesions {
-    padding: 0 120px 0 120px;
+    padding: 0;
 
     &__container {
         display: flex;
@@ -525,7 +526,7 @@
         outline: none;
 
         &:hover {
-            border: 1px solid var(--btn-color-hover);
+            border: 1px solid var(--main-color);
         }
     }
 

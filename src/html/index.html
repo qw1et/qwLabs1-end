@@ -23,6 +23,9 @@
     @@include('layout/_styles.html')
 </head>
 <body>
+    <!-- dialog -->
+    @@include('layout/_dialog.html')
+    <!-- end dialog -->
     <!-- Header -->
     @@include('layout/_header.html')
     <!-- End Header -->
@@ -38,7 +41,7 @@
                         <h1 class="service__title h1">Сервис безопасных сделок с гарантией доставки</h1>
                         <p class="service__text text-info">Сервис предоставляет 100% защиту денежных средств для покупателей и продавцов при покупках товаров в интернете</p>
                         </div>
-                        <button class="btn-create reset-btn" type="button">Оставить заявку</button>
+                        <button class="btn-create reset-btn" data-a11y-dialog-show="dialog-window">Создать сделку</button>
                     </div>
                     <div class="service__img">
                         <picture>
