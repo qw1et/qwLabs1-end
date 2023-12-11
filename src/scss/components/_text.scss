@@ -89,6 +89,25 @@
     }
 }
 
+.text-paswrd {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+
+    &_forgot {
+        color: var(--color-paswrd);
+        margin: 0;
+    }
+
+    &_pass {
+        color: var(--secondary-text);
+        margin: 0;
+    }
+    
+}
+
 
 
 

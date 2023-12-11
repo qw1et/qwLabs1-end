@@ -2,14 +2,14 @@
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 110%; /* 61.6px */
+    line-height: 110%; 
 }
 
 .h2 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 57.6px */
+    line-height: 120%; 
     color: var(--main-color-secondary);
 }
 
@@ -17,7 +17,7 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 38.4px */
+    line-height: 120%; 
     color: var(--main-color-secondary);
     margin: 0;
 }
@@ -26,6 +26,7 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 130%; 
+    line-height: 130%;
+    color: var(--main-color-secondary);
     margin: 0;
 }

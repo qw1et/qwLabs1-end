@@ -40,3 +40,24 @@
         transform: scale(0.98);
     }
 }
+
+.btn-reg {
+    padding: 9px 12px;
+    background: var(--bg-color);
+    color: var(-main-color-secondary);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    width: 100%;
+
+    &:nth-child(1) {
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    &:nth-child(2) {
+        border-radius: 0px 6px 6px 0px;
+    }
+}

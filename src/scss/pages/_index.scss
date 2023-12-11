@@ -43,23 +43,24 @@
         height: 412.01px;  
         border-radius: 1000000px;
         z-index: 1;
+        overflow:hidden
     }
 
-    &__column {
+    &__words {
         display: flex;
         flex-direction: column;
         width: 609px;
         gap: 50px;
     }
 
-    &__row {
+    &__words-btn {
         display: flex;
         flex-direction: column;
         gap: 24px;
     }   
 }
 
-.cross {
+.card-info {
     position: relative;
     z-index: 200;
     margin-top: -75px;

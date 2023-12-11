@@ -1,0 +1,173 @@
+.dialog-reg {
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    pointer-events: all;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+
+    &[aria-hidden="true"] {
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+    }
+}
+
+.forms {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+    &__title {
+       text-align: center;
+       padding: 24px; 
+    }
+
+    &__btns {
+        display: flex;
+        padding: 0 24px 0 24px;
+    }
+
+    &__internals {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px 24px 0 24px;
+    }
+
+    &__data {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__label {
+        color: var(--secondary-text);
+        cursor: pointer;
+
+        &::after {
+            color: #ED0A34;
+            content: '*';
+        }
+    }
+
+    &__input {
+        height: 38px;
+        padding: 9px 12px;
+        outline: none;
+        width: 400px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+
+        &:hover {
+            border: 1px solid var(--main-color);
+        }
+    }
+
+    &__link {
+        width: 100%;
+        color: var();
+    }
+
+    &__b-sing {
+        padding: 9px 16px;
+        width: 100%;
+    }
+
+    &__btn-and-text {
+        padding: 24px;
+    }
+
+    &__checkbox {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+    }
+
+}
+
+.sign-in {
+    padding: 24px;
+    background-color: var(--bg-color);
+    position: absolute;
+    opacity: 0;
+    border-radius: 16px;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 8px 0px rgba(0, 17, 51, 0.08), 0px 18px 28px 0px rgba(0, 17, 51, 0.16);
+
+    &_active {
+        position: relative;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    &__sign-in-btn_active {
+        border: 1px solid var(--btn-color-hover);
+    }  
+}
+
+.sign-up {
+    padding: 24px;
+    position: absolute;
+    opacity: 0;
+    border-radius: 16px;
+    pointer-events: none;
+    background-color: var(--bg-color);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 8px 0px rgba(0, 17, 51, 0.08), 0px 18px 28px 0px rgba(0, 17, 51, 0.16);
+
+    &__sign-up-btn_active {
+        border: 1px solid var(--main-color);
+    }
+    
+    &_active {
+        position: relative;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    hr {
+        box-sizing: border-box;
+        height: 4px;
+        background: rgba(0, 16, 61, 0.12);
+        border: none;
+        margin: 8px 0;
+    }
+}
+
+.input-password {
+    background: url(.././assets/images/eye.svg) no-repeat right;
+    background-position-x: calc(100% - 9px);
+    background-color: var(--bg-color);
+}
+
+.footer-hr {
+    height: 1px;
+    background: rgba(0, 16, 61, 0.12);
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.auth-footer {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__link:hover {
+        transition: color 0.2s ease-in;
+        color: var(--primary-color-btn);
+    }
+}
