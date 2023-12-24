@@ -30,3 +30,15 @@
     color: var(--main-color-secondary);
     margin: 0;
 }
+
+@media (max-width: $mobile-bp) {
+    .h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .h2 {
+        font-size: 28px;
+    }
+}

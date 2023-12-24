@@ -542,8 +542,171 @@
     }
 }
 
+@media (max-width: $mobile-bp) {
+    .service {
+        padding: 0px 20px 80px 20px;
+        border-radius: 0px 0px 40px 40px;
 
+        &__title {
+            width: 336px;
+            height: 58px;                    
+        }
 
+        &__words-btn {
+            gap: 10px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            width: 336px;
+            height: 379px;         
+        }
+
+        &__words {
+            gap: 30px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .about-service {
+        padding: 30px 20px;
+
+        &__container {
+            flex-direction: column;
+            gap: 40px;            
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .internals {  
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &__service-info {          
+            gap: 20px;
+        }
+        
+        &__photo-text {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 336px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .how-it-works {
+        padding: 30px 20px;        
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .reports {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__pic-text {
+            padding: 20px;
+            width: 336px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .what-can-sell {
+        padding: 20px 30px;
+
+        &__online-shop {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .advantage {
+        padding: 30px 20px;
+
+        &__attribute {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        &__container {
+            gap: 20px;
+        }
+
+        &__card {
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .feedback {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .comments {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__cards {
+            gap: 0px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .quesions {
+        &__container{
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+            gap: 40px;
+        }
+
+        &__title {
+            width: 486px;
+            margin: 0;
+        }
+
+        &__recom {
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .request {
+        width: 336px;
+        padding: 20px;
+
+        &__btn {
+            width: 295px;
+        }
+    }
+}
 
 
 
