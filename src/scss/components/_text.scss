@@ -109,50 +109,35 @@
     
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $tablet-bp) {
     .text-info {
-        font-size: 12px;
+        font-size: 16px;
     }
-}
 
-@media (max-width: $mobile-bp) {
+    .text-cards {
+        font-size: 14px;
+        width: 308px;
+        height: 120px;
+    }
+
+    .service-info {
+        font-size: 24px;
+    }
+
     .text-conf {
-        font-size: 12px;
-        font-weight: 400px;
-        text-align: center;        
+        text-align: center;
+        height: 100%;
     }
-}
 
-@media (max-width: $mobile-bp) {
     .text-adventage {
         font-size: 16px;
+    }
 
-        &__feedback {
-            font-size: 16px;
-            width: 296px;
-        }
+    .text-cards__calculator {
+        
     }
 }
 
-@media (max-width: $mobile-bp) {
-    .function-text {
-        font-size: 16px;        
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .text-cards {
-        font-size: 12px;
-        width: 336px;
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .service-info {
-        font-size: 16px;
-        width: 336px;
-    }
-}
 
 
 

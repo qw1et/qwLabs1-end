@@ -1,9 +1,14 @@
 .title {
     margin: 0px;
 
-    &__calculator {
+    &_calculator {
         color: var(--bg-color);
-        margin: 0px;        
+        margin: 0;         
+    }
+
+    &_calc {
+        color: var(--bg-color);
+        margin: 0;         
     }
 }
 
@@ -230,6 +235,13 @@
 .calculator {
     padding: 120px 0 0 0;
 
+    &__name {
+        margin: 0;
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+
     &__btn {
         width: 182px;
         height: 56px;
@@ -439,6 +451,12 @@
         width: 44px;
         height: 44px;
     }
+
+    &__adaptive {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
 }
 
 .feedback {
@@ -505,6 +523,7 @@
         display: flex;
         flex-direction: column;
         gap: 24px;
+        height: 100%;
     }
 }
 
@@ -542,171 +561,251 @@
     }
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $tablet-bp) {
     .service {
-        padding: 0px 20px 80px 20px;
-        border-radius: 0px 0px 40px 40px;
+        padding: 40px 20px;
 
         &__title {
-            width: 336px;
-            height: 58px;                    
+            width: 100%;
+            height: 100%;
         }
 
-        &__words-btn {
-            gap: 10px;
-        }
-
-        &__content {
-            display: flex;
-            flex-direction: column;
-        }
-
-        &__img {
-            width: 336px;
-            height: 379px;         
+        &__text {
+            width: 100%;
         }
 
         &__words {
             gap: 30px;
-        }
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .about-service {
-        padding: 30px 20px;
-
-        &__container {
-            flex-direction: column;
-            gap: 40px;            
-        }
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .internals {  
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
-        &__service-info {          
-            gap: 20px;
-        }
-        
-        &__photo-text {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            width: 336px;
-        }
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .how-it-works {
-        padding: 30px 20px;        
-    }
-}
-
-@media (max-width: $mobile-bp) {
-    .reports {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-        &__pic-text {
-            padding: 20px;
-            width: 336px;
+            height: 100%;
         }
 
         &__content {
-            display: flex;
-            flex-direction: column;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .card-info {
+        padding: 0 60px 30px 60px;
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .about-service {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .internals {
+        gap: 25px;
+
+        &__service-info {
+            height: 100%;
+            width: 100%;
+            font-size: 24px        
+        }
+
+        &__photo-text {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .comments {
+        &__cards {
+            padding: 20px;
+            gap: 0;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .how-it-works {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .reports {
+        gap: 0;
+
+        &__pic-text {
+            padding: 20px;
+            width: 348px;
+        }
+   
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .calculator {
+        padding: 30px 20px;
+        
+        &__container {
+            padding: 40px 30px;
             gap: 20px;
         }
     }
 }
 
-@media (max-width: $mobile-bp) {
-    .what-can-sell {
-        padding: 20px 30px;
+@media (max-width: $tablet-bp) {
+    .frames {
+        grid-template-columns: repeat(2,2fr);
+        gap: 20px;
 
-        &__online-shop {
-            display: flex;
-            flex-direction: column;
+        &__info {
+            width: 321px;
         }
     }
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $tablet-bp) {
+    .calc-sending {
+
+        &__content {
+            width: 303px;
+        }
+    } 
+}
+
+@media (max-width: $tablet-bp) {
+    .order {
+        &__size {
+            width: 152px;
+        }
+    }
+}
+
+
+@media (max-width: $tablet-bp) {
+    .title_calculator {
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+
+
+@media (max-width: $tablet-bp) {
+    .what-can-sell {
+        padding: 30px 20px;
+
+        &__container {
+            gap: 32px;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .card {
+        padding: 20px;
+        width: 348px;
+        height: 284px;
+
+        &__text {
+            gap: 20px;
+            width: 308px;
+        }
+
+        &__img-f {
+            width: 100px;
+            height: 100px;
+            bottom: -70px;
+            left: 225px;
+        }
+
+        &__img-tw {
+            width: 150px;
+            height: 150px;
+            bottom: -35px;
+            left: 200px;
+        }
+    
+        &__img-fr {
+            width: 125px;
+            height: 125px;
+            bottom: -65px;
+            left: 200px;
+        }
+    
+        &__img-fo {
+            width: 100px;
+            height: 100px;
+            bottom: -50px;
+            left: 200px;
+    
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
     .advantage {
         padding: 30px 20px;
+
+        &__card {
+            padding: 20px;
+            gap: 10px;
+            width: 348px;
+            height: 87px;
+        }
 
         &__attribute {
             display: flex;
             flex-direction: column;
-            gap: 20px;
         }
 
-        &__container {
-            gap: 20px;
-        }
-
-        &__card {
-            padding: 20px;
+        &__adaptive {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
         }
     }
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $tablet-bp) {
+    .quesions {
+        padding: 30px 20px;
+
+        &__container {
+            gap: 33px;
+            padding: 40px;
+        }
+
+        &__title {
+            width: 100%;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
+    .request {
+        padding: 20px;
+
+        &__btn {
+            width: 231px;
+        }
+    }
+}
+
+@media (max-width: $tablet-bp) {
     .feedback {
         padding: 30px 20px;
     }
 }
 
-@media (max-width: $mobile-bp) {
-    .comments {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
 
-        &__cards {
-            gap: 0px;
-            padding: 20px;
-        }
-    }
-}
 
-@media (max-width: $mobile-bp) {
-    .quesions {
-        &__container{
-            display: flex;
-            flex-direction: column;
-            padding: 40px 20px;
-            gap: 40px;
-        }
 
-        &__title {
-            width: 486px;
-            margin: 0;
-        }
 
-        &__recom {
-            gap: 10px;
-        }
-    }
-}
 
-@media (max-width: $mobile-bp) {
-    .request {
-        width: 336px;
-        padding: 20px;
 
-        &__btn {
-            width: 295px;
-        }
-    }
-}
 
 
 

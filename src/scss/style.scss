@@ -14,10 +14,25 @@
 @import './base/common';
 
 // Components
-@import './components/**/*.scss';
+@import './components/headings';
+@import './components/text';
+@import './components/btn';
+@import './components/form';
+@import './components/card';
+@import './components/content';
+@import './components/dialog';
 
 // Layout
-@import './layout/**/*.scss';
+@import './layout/container';
+@import './layout/nav';
+@import './layout/section';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/page';
+@import './layout/reg';
+@import './node_modules/swiper/swiper';
 
 // Pages
-@import './pages/**/*.scss';
+@import './pages/index';
+@import './pages/404';
+@import './pages/privacy';

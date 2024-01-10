@@ -98,18 +98,6 @@
     }
 }
 
-@media (max-width: $mobile-bp) {
-    .footer {
-        flex-direction: column;
-        padding: 30px 20px;
-        gap: 40px;
-    }
-}
 
-@media (max-width: $mobile-bp) {
-    .mob-footer {
-        display: flex;
-        flex-direction: row;
-        gap: 23px;
-    }
-}
+
+
