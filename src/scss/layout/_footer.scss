@@ -98,6 +98,34 @@
     }
 }
 
+@media (max-width: $tablet-bp) {
+    .footer {
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 78px;
+    }
+
+    .mob-footer {
+        gap: 78px;
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .footer {
+        gap: 40px;
+
+        &__social {
+            text-align: end;
+            position: relative; top: 25px;
+        }
+    }
+
+    .mob-footer {
+        gap: 23px;
+    }
+}
+
 
 
 

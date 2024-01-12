@@ -110,3 +110,36 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: $tablet-bp) {
+    .dialog {
+        &__window {
+            width: 768px;
+        }
+
+        &__btn-applicaton, &__input {
+            width: 543px;
+        }
+
+        &__forms {
+            align-items: center;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .dialog {
+        &__window {
+            width: 335px;
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__input, &__btn-applicaton {
+            width: 100%;
+        }
+    }
+}

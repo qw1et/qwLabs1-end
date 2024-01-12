@@ -3,7 +3,7 @@ const menuInit = () => {
 
     if (!toggleMenu) return
 
-    const menu = document.querySelector('.nav__menu')
+    const menu = document.querySelector('.menu')
     const navSocial = document.querySelector('.nav__social')
     const navPics = document.querySelector('.nav__pics')
     const requisites = document.querySelector('.requisites')

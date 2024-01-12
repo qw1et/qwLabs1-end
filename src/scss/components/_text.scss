@@ -132,10 +132,22 @@
     .text-adventage {
         font-size: 16px;
     }
+}
 
-    .text-cards__calculator {
-        
+@media (max-width: $mobile-bp) {
+    .text-cards {
+        font-size: 12px;
     }
+
+    .service-info {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .text-info {
+        font-size: 12px;
+    }
+
 }
 
 
