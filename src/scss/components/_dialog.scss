@@ -113,8 +113,11 @@
 
 @media (max-width: $tablet-bp) {
     .dialog {
+        width: 768px;
+
         &__window {
             width: 768px;
+            padding: 40px 60px;           
         }
 
         &__btn-applicaton, &__input {
@@ -130,8 +133,12 @@
 
 @media (max-width: $mobile-bp) {
     .dialog {
+        max-width: 375px;
+        width: 100%;
+        
         &__window {
             width: 335px;
+            padding: 40px 20px;
         }
 
         &__title {
@@ -142,4 +149,5 @@
             width: 100%;
         }
     }
+    
 }

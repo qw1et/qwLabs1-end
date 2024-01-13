@@ -22,8 +22,6 @@
 .forms {
     max-width: 450px;
     width: 100%;
-    display: flex;
-    justify-content: center;
     position: relative;
 
 
@@ -64,7 +62,7 @@
         height: 38px;
         padding: 9px 12px;
         outline: none;
-        width: 400px;
+        width: 100%;
         border-radius: 6px;
         border: 1px solid rgba(0, 16, 61, 0.12);
 
@@ -172,7 +170,12 @@
     }
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $tablet-bp) {
+    .dialog-reg {
+        width: 768px;
+    }
+
+
     .forms__link {
         word-wrap: break-word;
         word-break: break-all;
@@ -180,7 +183,29 @@
 }
 
 @media (max-width: $mobile-bp) {
+    .dialog-reg {
+        width: 375px;        
+    }
+
+    .forms {
+        
+        &__unput {
+            width: 300px;
+        }
+
+    }
+
     .sign-in {
-        width: 100%;
+        padding: 20px;
+        width: 350px;
+    }
+
+    .sign-up {
+        padding: 20px;
+        width: 350px;
+    }
+
+    .auth-footer {
+        width: 320px;
     }
 }

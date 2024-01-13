@@ -840,6 +840,7 @@
         &__img {
             width: 335px;
             height: 260px;
+            margin-left: -34px;
         }
 
         &__words-btn {
@@ -856,8 +857,9 @@
 
 @media (max-width: $mobile-bp) {
     .card-info {
+        padding: 0px 20px 30px 20px;
         width: 336px;
-        margin-left: -9px;
+        margin-left: 20px;
         margin-top: -55px;
 
         &__container {
