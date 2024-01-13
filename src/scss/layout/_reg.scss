@@ -171,3 +171,16 @@
         color: var(--primary-color-btn);
     }
 }
+
+@media (max-width: $mobile-bp) {
+    .forms__link {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .sign-in {
+        width: 100%;
+    }
+}

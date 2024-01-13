@@ -13,8 +13,8 @@ const menuInit = () => {
     const handleToggleMenu = () => {
         toggleMenu.classList.toggle('toggle-menu_active')
         menu.classList.toggle('menu_active')
-        nav.classList.toggle('nav__social_active')
-        nav.classList.toggle('nav__pics_active')
+        navSocial.classList.toggle('nav__social_active')
+        navPics.classList.toggle('nav__pics_active')
         requisites.classList.toggle('requisites_active')
         politics.classList.toggle('politics_active')
         phoneTime.classList.toggle('phone_active')

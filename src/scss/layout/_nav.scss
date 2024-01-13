@@ -106,7 +106,7 @@
             transition: color 0.2s ease-in; 
 
             &:hover {
-                color: var(--btn-color-active);
+                color: var(--main-color);
             }
         }
 
@@ -138,12 +138,12 @@
             transition: all 0.2s ease-in;
 
             & > svg {
-                fill: var(--btn-color-hover);
+                fill: var(--main-color);
             }
 
             &:hover {
                 &>svg {
-                    fill: var(--btn-color);
+                    fill: var(--main-color-secondary);
                 }
             }
         }
@@ -182,7 +182,7 @@
         &__phone {
             transition: color 0.2s ease-in;
             &:hover {
-                color: var(--primary-color);
+                color: var(--main-color);
             }
         }
 
